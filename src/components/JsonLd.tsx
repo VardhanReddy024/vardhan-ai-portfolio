@@ -15,6 +15,7 @@ export function PersonJsonLd() {
         jobTitle: "AI Engineer",
         description: PERSONAL_INFO.heroDescription,
         url: PERSONAL_INFO.siteUrl,
+        image: `${PERSONAL_INFO.siteUrl}/profile.png`,
         sameAs: [
           PERSONAL_INFO.linkedin,
           PERSONAL_INFO.github
